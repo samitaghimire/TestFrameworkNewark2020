@@ -20,7 +20,7 @@ namespace TestFrameworkNewark2020
             coreMethod.textboxenter(driver, "Id", control_Id.username, input.usernameValue);
             coreMethod.textboxenter(driver, "Name", control_Id.password, input.passvalue);
             coreMethod.buttonclick(driver, "CssSelector", control_Id.loginbutton);
-
+	    coreMethod.buttonclick(driver,"Id", control_Id.logout_click);
         }
 		public static void Registration(IWebDriver driver)
 		{
