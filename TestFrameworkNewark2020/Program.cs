@@ -10,6 +10,7 @@ namespace TestFrameworkNewark2020
 	{
 		static void Main(string[] args)
 		{
+            featureMethod.login();
 		}
 	}
 }

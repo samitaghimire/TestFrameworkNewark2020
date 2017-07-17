@@ -43,8 +43,8 @@ namespace TestFrameworkNewark2020
 		{
 			if (ControlType.Equals("Id"))
 				driver.FindElement(By.Id(ControlID)).Click();
-			if (ControlType.Equals("xPath"))
-				driver.FindElement(By.XPath(ControlID)).Click();
+			if (ControlType.Equals("CssSelector"))
+				driver.FindElement(By.CssSelector(ControlID)).Click();
 
 
 		}

@@ -9,7 +9,7 @@ namespace TestFrameworkNewark2020
 	class control_Id
 	{
 		//login control id
-		public static string login_Click = "[href*='/Account/Login']";
+		public static string login_Click = "loginLink";
 		public static string username = "Email";
 		public static string password = "Password";
 		public static string loginbutton = "[class*='btn']";
