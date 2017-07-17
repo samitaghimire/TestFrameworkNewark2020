@@ -16,6 +16,7 @@ namespace TestFrameworkNewark2020
 			 IWebDriver driver = new ChromeDriver(@"C:\Automation testing\Driver");
 
 			driver.Url = @"http://122.160.12.156:8090/";
+			driver.Manage().Window.Maximize();
 			
 		   Thread.Sleep(2000);
 			featureMethod.Registration(driver);
