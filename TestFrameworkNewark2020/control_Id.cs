@@ -15,9 +15,10 @@ namespace TestFrameworkNewark2020
 		public static string loginbutton = "[class*='btn']";
 
 		//register control id
-		public static string register_link = "Register";
+		public static string register_link_ID = "registerLink";
 		public static string uname = "UserName";
 		public static string pass = "Password";
+		public static string confirmpass = "ConfirmPassword";
 		public static string firstname = "FirstName";
 		public static string middlename = "MiddleName";
 		public static string lastname = "LastName";
@@ -36,7 +37,7 @@ namespace TestFrameworkNewark2020
 		public static string educationcheckbox = "Education";
 		public static string license = "License";
 		public static string certification = "Certifications";
-		public static string areaofinterest = "[class*='pull-left']";
+		public static string areaofinterest = "Automotive";
 		public static string createbutton = "reg_sub";
 
 

@@ -13,15 +13,19 @@ namespace TestFrameworkNewark2020
 		public static string passvalue = "123456";
 
 		//register input
-		public static string unamevalue = "sweta";
-		public static string pvalue = "12345";
-		public static string firstnamevalue = "sweta";
+		public static Random randomGenartor = new Random();
+		public static int randomInt = randomGenartor.Next(100);
+		public static string username = "Jack" + randomInt;
+		public static string email = "Jack" + randomInt + "@gmail.com";
+		public static string unamevalue = username;
+		public static string pvalue = "Test@12345";
+		public static string firstnamevalue = "John";
 		public static string middlenamevalue = "p";
-		public static string lastnamevalue = "pandey";
-		public static string emailvalue = "swetapandet@gmail.com";
+		public static string lastnamevalue = "Killer";
+		public static string emailvalue = email;
 		public static string mobilevalue = "6667778888";
 		public static string agevalue = "20";
-		public static string gendervalue = "female";
+		public static string gendervalue = "Male";
 		public static string race = "Asian";
 		public static string fulladdressvalue = "san diego";
 		public static string streetvalue = "111";
